@@ -116,8 +116,8 @@ footer{background:#0b1428;color:#dce5f7;padding:28px 0;text-align:center;font-si
       <div class="contact-box">
         <h3>Contact details</h3>
         <p>Use whichever channel is most convenient for you.</p>
-        <a class="contact-link" href="mailto:YOUR_EMAIL@example.com">✉ YOUR_EMAIL@example.com</a>
-        <a class="contact-link" href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noopener">◉ WhatsApp: +880 1XXXXXXXXX</a>
+        <a class="contact-link" href="mailto:nazmulislam89516@gmail.com">✉ nazmulislam89516@gmail.com</a>
+        <a class="contact-link" href="https://wa.me/8801773895770" target="_blank" rel="noopener">◉ WhatsApp: +880 1773895770</a>
         <a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noopener">in LinkedIn profile</a>
         <a class="contact-link" href="https://www.upwork.com/" target="_blank" rel="noopener">↗ Upwork profile</a>
       </div>
@@ -125,11 +125,11 @@ footer{background:#0b1428;color:#dce5f7;padding:28px 0;text-align:center;font-si
         <h3>Send a project inquiry</h3>
         <form id="contactForm">
           <input id="name" type="text" placeholder="Your name" required>
-          <input id="email" type="email" placeholder="Your email address" required>
+          <input id="email" type="email" placeholder="nazmulislam89516@gmail.com" required>
           <select id="service" required><option value="">Select a service</option><option>Product Research</option><option>Keyword Research</option><option>Listing Optimization</option><option>Amazon PPC Support</option><option>Seller Central Support</option><option>Store & Order Support</option><option>Other Amazon service</option></select>
           <textarea id="message" placeholder="Tell me a little about your project..." required></textarea>
           <button class="btn" type="submit">Prepare Email Inquiry</button>
-          <div class="form-note">This form opens your email app; it does not store or send information by itself. Update the email address in the page code first.</div>
+          <div class="form-note">This form opens nazmulislam89516@gmail.com; it does not store or send information by itself. Update the email address in the page code first.</div>
         </form>
       </div>
     </div>
@@ -141,7 +141,7 @@ footer{background:#0b1428;color:#dce5f7;padding:28px 0;text-align:center;font-si
 document.getElementById('year').textContent = new Date().getFullYear();
 document.getElementById('contactForm').addEventListener('submit', function(e){
   e.preventDefault();
-  const email = 'YOUR_EMAIL@example.com';
+  const email = 'nazmulislam89516@gmail.com';
   const subject = encodeURIComponent('Amazon services inquiry: ' + document.getElementById('service').value);
   const body = encodeURIComponent('Name: ' + document.getElementById('name').value + '\\nEmail: ' + document.getElementById('email').value + '\\nService: ' + document.getElementById('service').value + '\\n\\nProject details:\\n' + document.getElementById('message').value);
   window.location.href = 'mailto:' + email + '?subject=' + subject + '&body=' + body;
